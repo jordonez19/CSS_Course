@@ -1,0 +1,128 @@
+------------------ Curso CSS --------------------
+
+nivel de gerarquia CSS = cascade style sheets
+
+1.  !important
+2.  style= "en linea";
+3.  #id{ blablabla; }
+4.  .clases{}, pseudo clases{}, atributos{}.
+5.  elementos h1{}
+6.  pseudo elementos 
+    h1{red}
+    h1{blue} esta queda
+
+---------------- Metodologia Bem -----------------
+
+
+
+    <h1> ESTER SERA UN TITULO INTERACTIVO </h1>
+
+
+
+se escribe  la clase seguido de 2 __ y el elemento q se esta usando 
+
+<div class="form">
+User<input type="text" class="user_form_input">
+User<input type="text" class="user_form_input--active">
+User<input type="text" class="user_form_input">
+User<input type="text" class="user_form_input">
+Contact<input type="text" class="contact_form_input">
+
+
+</div>
+
+---------------- Teoria de medidas -----------------
+
+
+relativas depende de algo
+fijas las q no se pueden modificar px rem etc
+
+
+
+
+
+
+
+
+
+1em = a 16 pixeles
+width: 50vw;   ======== VW = view port
+line-height = es el espacio q ocupa la letra
+
+
+importante para q mantengan las imagenes en su tamaño
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+para mantener las imagenes en su 100% 
+
+img {
+  border-style: none;
+  max-width: 100%;
+
+}
+
+-----------------------CAJAS-------------------
+
+* EN LINEA
+* EN BLOQUE
+-------------------------------------------------
+*{
+    
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: , monospace;
+
+}
+----------------------------------------------
+
+h2{
+    display:inline-block;
+    background-color: red;
+    padding: 100px ;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 40%;
+    border: 14px lightblue solid ;
+    box-shadow: black 25px 25px;
+    text-shadow: 2px 2px, 2px 2px, 2px 2px,  ;
+    transform: rotate(45deg);
+
+}
+
+
+outline = generamos border sin afectar las cajas=> no afecta el dom
+---------------------------------------------------------
+
+
+
+    box-sizing: border-box; ===> se queda en el border de la caja.
+    box-sizing: content-box;===> rellena el borde con el espacio q tenga esta.
+
+
+-----------------------------------------------------------
+1.position: relative;
+    da 4 propiedades nuevas = top, left, right, bottom.
+	las propiedades mas importantes son Top y Left
+
+------------------------------------------------------
+z-index el valor entre mas grande va a aparecer primero 
+1 y  0     
+
+position: relative;
+z-index: 1 ;
+
+tiene q haber una position 
+
+
+
+
+
+
+
