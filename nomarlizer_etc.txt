@@ -121,6 +121,50 @@ z-index: 1 ;
 tiene q haber una position 
 
 
+-----------------------DISPLAY----------------------
+
+BLOCK =son los elementos q ocupan todo
+INLINE = q ocupan el texto en el q estan 
+
+INLINE-BLOCK = se puede modificar el tamaño de la caja
+
+TABLE = q se comporte como tabla
+INLINE-TABLE = q se comporte como tabla en linea
+TABLE-CELL = se comporta como un cuadro dentro de los cuadros de un grid
+TABLE-ROW = HORIZONTAL
+TABLE-COLUMN = VERTICAL
+
+GIRD
+FLEX
+
+INLINE-FLEX
+INLINE-GRID
+
+---------------LOS DISPLAY MAS USADOS------------------
+
+BLOCK =son los elementos q ocupan todo -----> TEXTOS
+INLINE = q ocupan el texto en el q estan 
+INLINE-BLOCK = se puede modificar el tamaño de la caja
+
+GIRD    Se comportan como block- pero los hijos no
+FLEX    Se comportan como block- pero los hijos no
+
+INLINE-FLEX
+INLINE-GIRD
+-------------------------------------------------
+OVER-FLOW: me permite hacer scroll en el espacio y se ajusta en el cuadro.
+-------------------------------------------------
+FLOAT (left, right,top,bottom)
+
+-----------PSEUDO ELEMENTO---------------------
+
+
+
+
+
+
+
+
 
 
 

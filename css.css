@@ -1,155 +1,199 @@
 *{
-    
-    font-weight: 100;
-    font-size: 30px;
-    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+}
+
+body{
+    background: lightblue;
+}
+
+
+.nav{
+    background-color: rgb(12, 83, 107);
+    font-size:30px ;
+    text-transform: capitalize;
+    height: 68px;
 
 }
+.nav__ul{
+    width: 100%;
+    box-sizing: border-box;
+    top: 4px;
+    position: relative;
+}
+
+.nav__responsive-ul{
+    display: none;
+}
+
+.nav__ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 6px 6px 6px 2px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.nav__ul a{
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+/* Hovers li */
+
+
+
+/* responsive hovers*/
+
+.nav__responsive-ul li:hover{
+    color: #ffffff9c;
+}
+.nav__responsive-ul a:hover{
+    color: #ffffff9c;
+}
+.nav__responsive-button:hover{
+    color: #ffffff9c;
+}
+
+
+
+/* Button */
+
+.nav__button{
+    color: white;
+    padding-right:8px ;
+    cursor: pointer;
+    float: right;
+    margin: 11px;
+    font-size: 38px;
+}
+
+
+
+.nav__responsive-button-container{
+    position: absolute;
+    width: 100%;
+    font-size:35px ;
+    background-color: rgb(12, 83, 107);
+    margin-top:-34px ;
+    z-index: 1000;
+    
+
+}
+.nav__responsive-button{
+    padding: 23px 30px 17px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
 
 li{
-    display: inline;
-    flex: content;
-    margin: 0px 10px;
-}
-
-.text{
-    text-align: center;
-    margin: 55px;
-}
-
-.menu{
-    background-color: red;
-    height: 80px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    margin-top: 0;
-    z-index: 1;
-}
-
-div{
-    font-weight: bold;
-    font-size: 55px;
-    display: block;
-    position: absolute;
-
-}
-
-div div{
-    height: 200px;
-    width: 200px;
-    text-align: center;
-    justify-items: center;
-}
-
-.contenedor{
-    background: yellow;
     position: relative;
-    margin: 10px auto;
-    border: black 5px solid;
-    width: 800px;
-    height: 800px;
+    transition: 0.4s;
+
+}
+.nav__responsive-li:active{
+    background-color: rgb(12, 83, 107);
+    padding: 25px;
+}
+
+
+@media only screen and (max-width:800px )
+{
+
     
+    .nav__li-container:hover{
+        color: #ffffff9c;
+    }
+
+    .nav__ul{
+        display: none;
+    }
+
+    .nav{
+        height: 37px;
+        width: 100%;
+        background-color: rgb(133, 192, 211);
 
 
+    }
 
-}
+    .nav__responsive-ul{
+        display: block;
+        position: absolute;
+        width: 120%;
+        margin: 0px 0 0 -39px;
+        text-transform: capitalize;
+        padding-top: 27px;
+        height: 0px;
+        color: black;
+    }
 
-.caja1{
-top: 0;
-    outline: solid black 5px;
-
-}
-.caja2{
-right: 0;
-    outline: solid black 5px;
-
-
-}
-.caja3{
-bottom: 0;
-right: 0;
-    outline: solid black 5px;
-
-
-}
-.caja4{
-bottom: 0;
-    outline: solid black 5px;
-
-}
-.caja5{
-
-    margin: auto;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    left: 0;
-    outline: solid black 5px;
-
-}
     
+    .nav__li-container{
+        position: relative;
+        top: -1000px;
+        height: calc(100vh -64px);
+        background-color: lightblue;
+        transition: 0.9s ;
+        z-index: 1;
 
 
+        
+    } 
+
+
+    .nav__responsive-ul:hover > .nav__li-container{
+        top: -5px;
+
+    }
+
+
+
+    .nav__responsive-li {
+        width: 100%;
+        list-style:none;
+        margin: 60px 0 0 0;
+        padding: 9px 20px;
+
+
+    }
+
+    
+    .nav__responsive-li i {
+        box-sizing: border-box;
+        text-align: right;
+        margin-right:15px ;
+        width: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+
+
+    }
+    .nav__responsive-li a {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: bold ;
+        font-family: cursive;
+
+    }
+
+    .nav__li-a{
+        text-decoration: none;
+    }
+
+
+}
 
 
 
 /* 
-.caja3{
-    border: 5px solid black;
-    position: relative;
+margin: 6px;
+padding-right:8px ;
+margin: 7px;
 
-}
- */
-
-
-
-
-/* 
-.caja1 
-{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    margin: auto;
-    border: solid green 5px;
-    box-sizing: border-box;
-}
-
-.caja2 
-{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(0, 0, 0);
-    margin: auto;
-    
-}
 
  */
-
-
-
-
-
-
-
-
-
-
-
-/* 
-h2{
-
-    background-color: red;
-    display:inline-block;
-    padding: 100px ;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 40%;
-    border: 14px lightblue solid ;
-    box-shadow: black 25px 25px;
-    text-shadow: 2px 2px, 2px 2px, 2px 2px,  ;
-    transform: rotate(45deg);
-
-} */
