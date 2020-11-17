@@ -3,12 +3,13 @@
 }
 
 body{
-    background: lightblue;
+    background: rgb(245, 212, 170);
 }
 
 
 .nav{
-    background-color: rgb(12, 83, 107);
+    background-color: rgb(255, 153, 57);
+
     font-size:30px ;
     text-transform: capitalize;
     height: 68px;
@@ -44,6 +45,18 @@ body{
 
 /* Hovers li */
 
+.nav__ul li:hover{
+    color: #ffffff9c;
+}
+.nav__ul a:hover{
+    color: #ffffff9c;
+}
+.nav__ul i:hover{
+    color: #ffffff9c;
+}
+.nav__button:hover{
+    color: #ffffff9c;
+}
 
 
 /* responsive hovers*/
@@ -52,6 +65,9 @@ body{
     color: #ffffff9c;
 }
 .nav__responsive-ul a:hover{
+    color: #ffffff9c;
+}
+.nav__responsive-ul i:hover{
     color: #ffffff9c;
 }
 .nav__responsive-button:hover{
@@ -77,7 +93,7 @@ body{
     position: absolute;
     width: 100%;
     font-size:35px ;
-    background-color: rgb(12, 83, 107);
+    background-color: rgb(255, 153, 57);
     margin-top:-34px ;
     z-index: 1000;
     
@@ -96,12 +112,65 @@ li{
 
 }
 .nav__responsive-li:active{
-    background-color: rgb(12, 83, 107);
+    background-color: rgb(255, 153, 57);
+
     padding: 25px;
 }
 
 
-@media only screen and (max-width:800px )
+
+
+
+
+
+
+
+input{
+    border: transparent ;
+
+}
+
+.search_bar{
+    float: right;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 15px;
+    border: transparent ;
+    text-decoration: none;
+    font-family: cursive;
+    color: rgb(121, 121, 121);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#icon__search{
+    color: white;
+    margin-right: 2px;
+    position: absolute;
+    right: 255px;
+    border: transparent ;
+    top: 16px;
+    
+
+}
+#icon__search:hover{
+    border: transparent ;
+    color: #ffffff9c;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:950px )
 {
 
     
@@ -116,7 +185,7 @@ li{
     .nav{
         height: 37px;
         width: 100%;
-        background-color: rgb(133, 192, 211);
+        background: rgb(245, 212, 170);
 
 
     }
@@ -137,8 +206,8 @@ li{
         position: relative;
         top: -1000px;
         height: calc(100vh -64px);
-        background-color: lightblue;
-        transition: 0.9s ;
+        background: rgb(245, 212, 170);
+                transition: 0.9s ;
         z-index: 1;
 
 
